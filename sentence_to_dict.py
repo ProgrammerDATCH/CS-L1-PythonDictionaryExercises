@@ -1,7 +1,6 @@
 def word_frequency(sentence):
     words = sentence.lower().split()
     frequency = {}
-    
     for word in words:
         word = ''.join(char for char in word if char.isalnum())
         if word in frequency:
